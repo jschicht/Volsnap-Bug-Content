@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events>
+	<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+		<System>
+			<Provider Name='Volsnap'
+			          Guid='{cb017cd2-1f37-4e65-82bc-3e91f6a37559}'
+			          EventSourceName='volsnap'/>
+			<EventID Qualifiers='49158'>27</EventID>
+			<Version>0</Version>
+			<Level>2</Level>
+			<Task>0</Task>
+			<Opcode>0</Opcode>
+			<Keywords>0x80000000000000</Keywords>
+			<TimeCreated SystemTime='2023-06-05T18:38:08.8740080Z'/>
+			<EventRecordID>10730</EventRecordID>
+			<Correlation/>
+			<Execution ProcessID='4'
+			           ThreadID='228'/>
+			<Channel>System</Channel>
+			<Computer>win11vm</Computer>
+			<Security/>
+		</System>
+		<EventData>
+			<Data Name='DeviceName'/>
+			<Data Name='VolumeName'>E:</Data>
+			<Data Name='NTSTATUS'>c0000034</Data>
+			<Data Name='SourceTag'>173</Data>
+			<Data Name='SourceFileID'>0x0001</Data>
+			<Data Name='SourceLine'>4993</Data>
+			<Binary>0000000006003000000000001B0006C0AD000000340000C001000000000000000000000000000000</Binary>
+		</EventData>
+		<RenderingInfo Culture='en-GB'>
+			<Message>The shadow copies of volume %2 were aborted during detection because a critical control file could not be opened.</Message>
+			<Level>Error</Level>
+			<Keywords>
+				<Keyword>Classic</Keyword>
+			</Keywords>
+		</RenderingInfo>
+	</Event>
+</Events>

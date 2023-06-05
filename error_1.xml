@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Events>
+	<Event xmlns='http://schemas.microsoft.com/win/2004/08/events/event'>
+		<System>
+			<Provider Name='Volsnap'
+			          Guid='{cb017cd2-1f37-4e65-82bc-3e91f6a37559}'
+			          EventSourceName='volsnap'/>
+			<EventID Qualifiers='49158'>15</EventID>
+			<Version>0</Version>
+			<Level>2</Level>
+			<Task>0</Task>
+			<Opcode>0</Opcode>
+			<Keywords>0x80000000000000</Keywords>
+			<TimeCreated SystemTime='2023-06-05T18:38:08.8115069Z'/>
+			<EventRecordID>10728</EventRecordID>
+			<Correlation/>
+			<Execution ProcessID='4'
+			           ThreadID='7024'/>
+			<Channel>System</Channel>
+			<Computer>win11vm</Computer>
+			<Security/>
+		</System>
+		<EventData>
+			<Data Name='DeviceName'>\Device\HarddiskVolumeShadowCopy78</Data>
+			<Data Name='VolumeName'>E:</Data>
+			<Data Name='NTSTATUS'>c000000e</Data>
+			<Data Name='SourceTag'>95</Data>
+			<Data Name='SourceFileID'>0x0001</Data>
+			<Data Name='SourceLine'>8474</Data>
+			<Binary>0000000006003000000000000F0006C05F0000000E0000C000000000000000000000000000000000</Binary>
+		</EventData>
+		<RenderingInfo Culture='en-GB'>
+			<Message>The shadow copies of volume %2 were aborted because of insufficient paged heap.</Message>
+			<Level>Error</Level>
+			<Keywords>
+				<Keyword>Classic</Keyword>
+			</Keywords>
+		</RenderingInfo>
+	</Event>
+</Events>
